@@ -1,0 +1,31 @@
+Line,Attribute,Score
+KJ (Kelana Jaya),Hospital Proximity,6
+KJ (Kelana Jaya),Frequency & Reliability,10
+KJ (Kelana Jaya),Accessibility (OKU),8
+KJ (Kelana Jaya),Interconnectivity,9
+KJ (Kelana Jaya),Affordability,8
+MRT (Kajang),Hospital Proximity,5
+MRT (Kajang),Frequency & Reliability,9
+MRT (Kajang),Accessibility (OKU),10
+MRT (Kajang),Interconnectivity,8
+MRT (Kajang),Affordability,8
+AGL/SPL (Ampang/SP),Hospital Proximity,7
+AGL/SPL (Ampang/SP),Frequency & Reliability,7
+AGL/SPL (Ampang/SP),Accessibility (OKU),6
+AGL/SPL (Ampang/SP),Interconnectivity,6
+AGL/SPL (Ampang/SP),Affordability,9
+PH,Hospital Proximity,6
+PH,Frequency & Reliability,6
+PH,Accessibility (OKU),5
+PH,Interconnectivity,5
+PH,Affordability,10
+PYL (Putrajaya),Hospital Proximity,10
+PYL (Putrajaya),Frequency & Reliability,8
+PYL (Putrajaya),Accessibility (OKU),10
+PYL (Putrajaya),Interconnectivity,9
+PYL (Putrajaya),Affordability,8
+MRL (KL Monorail),Hospital Proximity,8
+MRL (KL Monorail),Frequency & Reliability,5
+MRL (KL Monorail),Accessibility (OKU),4
+MRL (KL Monorail),Interconnectivity,7
+MRL (KL Monorail),Affordability,9

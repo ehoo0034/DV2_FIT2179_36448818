@@ -1,0 +1,6 @@
+range,count,status
+0-500m,531,Accessible
+500m-1km,310,Accessible
+1km-2km,362,Gap
+2km-5km,354,Gap
+>5km,290,Gap

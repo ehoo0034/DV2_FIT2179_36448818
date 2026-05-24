@@ -1,0 +1,477 @@
+{
+  "feature_count": 6000,
+  "geometry_types": {
+    "POINT": 4749,
+    "POLYGON": 1243,
+    "MULTIPOLYGON": 8
+  },
+  "bbox": [
+    99.7229377,
+    0.9760554,
+    118.6137512,
+    6.9077929
+  ],
+  "columns": [
+    {
+      "name": "id",
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_percent": 0.0,
+      "distinct_count": 6000,
+      "top_values": []
+    },
+    {
+      "name": "name",
+      "type": "VARCHAR",
+      "null_count": 225,
+      "null_percent": 3.75,
+      "distinct_count": 4694,
+      "top_values": []
+    },
+    {
+      "name": "name_en",
+      "type": "VARCHAR",
+      "null_count": 5134,
+      "null_percent": 85.57,
+      "distinct_count": 792,
+      "top_values": [
+        {
+          "value": "Alpro Pharmacy",
+          "count": 15
+        },
+        {
+          "value": "Caring Pharmacy",
+          "count": 9
+        },
+        {
+          "value": "Big Pharmacy",
+          "count": 6
+        },
+        {
+          "value": "Multicare Pharmacy",
+          "count": 5
+        },
+        {
+          "value": "BIG Pharmacy",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "name": "name_ms",
+      "type": "VARCHAR",
+      "null_count": 5097,
+      "null_percent": 84.95,
+      "distinct_count": 786,
+      "top_values": [
+        {
+          "value": "Klinik Mediviron",
+          "count": 67
+        },
+        {
+          "value": "Farmasi Alpro",
+          "count": 7
+        },
+        {
+          "value": "Farmasi BIG",
+          "count": 4
+        },
+        {
+          "value": "Farmasi Big",
+          "count": 4
+        },
+        {
+          "value": "Jabatan Sajian Diatetik",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "name": "amenity",
+      "type": "VARCHAR",
+      "null_count": 562,
+      "null_percent": 9.37,
+      "distinct_count": 6,
+      "top_values": [
+        {
+          "value": "clinic",
+          "count": 2849
+        },
+        {
+          "value": "pharmacy",
+          "count": 1320
+        },
+        {
+          "value": "dentist",
+          "count": 544
+        },
+        {
+          "value": "hospital",
+          "count": 489
+        },
+        {
+          "value": "doctors",
+          "count": 227
+        }
+      ]
+    },
+    {
+      "name": "building",
+      "type": "VARCHAR",
+      "null_count": 5477,
+      "null_percent": 91.28,
+      "distinct_count": 13,
+      "top_values": [
+        {
+          "value": "yes",
+          "count": 402
+        },
+        {
+          "value": "retail",
+          "count": 44
+        },
+        {
+          "value": "hospital",
+          "count": 37
+        },
+        {
+          "value": "commercial",
+          "count": 20
+        },
+        {
+          "value": "house",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "name": "healthcare",
+      "type": "VARCHAR",
+      "null_count": 387,
+      "null_percent": 6.45,
+      "distinct_count": 33,
+      "top_values": [
+        {
+          "value": "clinic",
+          "count": 2641
+        },
+        {
+          "value": "pharmacy",
+          "count": 1212
+        },
+        {
+          "value": "dentist",
+          "count": 502
+        },
+        {
+          "value": "hospital",
+          "count": 463
+        },
+        {
+          "value": "alternative",
+          "count": 208
+        }
+      ]
+    },
+    {
+      "name": "healthcare_speciality",
+      "type": "VARCHAR",
+      "null_count": 5329,
+      "null_percent": 88.82,
+      "distinct_count": 155,
+      "top_values": [
+        {
+          "value": "general",
+          "count": 138
+        },
+        {
+          "value": "traditional_chinese_medicine",
+          "count": 108
+        },
+        {
+          "value": "nephrology",
+          "count": 39
+        },
+        {
+          "value": "dentist",
+          "count": 23
+        },
+        {
+          "value": "chiropractic",
+          "count": 21
+        }
+      ]
+    },
+    {
+      "name": "operator_type",
+      "type": "VARCHAR",
+      "null_count": 5592,
+      "null_percent": 93.2,
+      "distinct_count": 8,
+      "top_values": [
+        {
+          "value": "government",
+          "count": 254
+        },
+        {
+          "value": "private",
+          "count": 122
+        },
+        {
+          "value": "public",
+          "count": 13
+        },
+        {
+          "value": "university",
+          "count": 13
+        },
+        {
+          "value": "religious",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "name": "capacity_persons",
+      "type": "VARCHAR",
+      "null_count": 6000,
+      "null_percent": 100.0,
+      "distinct_count": 0,
+      "top_values": []
+    },
+    {
+      "name": "addr_full",
+      "type": "VARCHAR",
+      "null_count": 5999,
+      "null_percent": 99.98,
+      "distinct_count": 1,
+      "top_values": [
+        {
+          "value": "36 Jalan Chemur Damai Complex, 50400, Kuala Lumpur",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "addr_city",
+      "type": "VARCHAR",
+      "null_count": 4611,
+      "null_percent": 76.85,
+      "distinct_count": 219,
+      "top_values": [
+        {
+          "value": "Miri",
+          "count": 228
+        },
+        {
+          "value": "Kuala Lumpur",
+          "count": 190
+        },
+        {
+          "value": "Petaling Jaya",
+          "count": 102
+        },
+        {
+          "value": "Seremban",
+          "count": 53
+        },
+        {
+          "value": "Kajang",
+          "count": 51
+        }
+      ]
+    },
+    {
+      "name": "source",
+      "type": "VARCHAR",
+      "null_count": 6000,
+      "null_percent": 100.0,
+      "distinct_count": 0,
+      "top_values": []
+    },
+    {
+      "name": "adm0_pcode",
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_percent": 0.0,
+      "distinct_count": 1,
+      "top_values": [
+        {
+          "value": "MYS",
+          "count": 6000
+        }
+      ]
+    },
+    {
+      "name": "adm0_name",
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_percent": 0.0,
+      "distinct_count": 1,
+      "top_values": [
+        {
+          "value": "Malaysia",
+          "count": 6000
+        }
+      ]
+    },
+    {
+      "name": "adm1_pcode",
+      "type": "VARCHAR",
+      "null_count": 115,
+      "null_percent": 1.92,
+      "distinct_count": 16,
+      "top_values": [
+        {
+          "value": "MY17",
+          "count": 1277
+        },
+        {
+          "value": "MY04",
+          "count": 1023
+        },
+        {
+          "value": "MY01",
+          "count": 619
+        },
+        {
+          "value": "MY13",
+          "count": 605
+        },
+        {
+          "value": "MY02",
+          "count": 418
+        }
+      ]
+    },
+    {
+      "name": "adm1_name",
+      "type": "VARCHAR",
+      "null_count": 115,
+      "null_percent": 1.92,
+      "distinct_count": 16,
+      "top_values": [
+        {
+          "value": "Selangor",
+          "count": 1277
+        },
+        {
+          "value": "W.P. Kuala Lumpur",
+          "count": 1023
+        },
+        {
+          "value": "Johor",
+          "count": 619
+        },
+        {
+          "value": "Sarawak",
+          "count": 605
+        },
+        {
+          "value": "Kedah",
+          "count": 418
+        }
+      ]
+    },
+    {
+      "name": "adm2_pcode",
+      "type": "VARCHAR",
+      "null_count": 115,
+      "null_percent": 1.92,
+      "distinct_count": 142,
+      "top_values": [
+        {
+          "value": "MY0401",
+          "count": 1023
+        },
+        {
+          "value": "MY1707",
+          "count": 464
+        },
+        {
+          "value": "MY0102",
+          "count": 309
+        },
+        {
+          "value": "MY1702",
+          "count": 261
+        },
+        {
+          "value": "MY1319",
+          "count": 248
+        }
+      ]
+    },
+    {
+      "name": "adm2_name",
+      "type": "VARCHAR",
+      "null_count": 115,
+      "null_percent": 1.92,
+      "distinct_count": 142,
+      "top_values": [
+        {
+          "value": "WP. Kuala Lumpur",
+          "count": 1023
+        },
+        {
+          "value": "Petaling",
+          "count": 464
+        },
+        {
+          "value": "Johor Bahru",
+          "count": 309
+        },
+        {
+          "value": "Ulu Langat",
+          "count": 261
+        },
+        {
+          "value": "Miri",
+          "count": 248
+        }
+      ]
+    },
+    {
+      "name": "adm3_pcode",
+      "type": "VARCHAR",
+      "null_count": 6000,
+      "null_percent": 100.0,
+      "distinct_count": 0,
+      "top_values": []
+    },
+    {
+      "name": "adm3_name",
+      "type": "VARCHAR",
+      "null_count": 6000,
+      "null_percent": 100.0,
+      "distinct_count": 0,
+      "top_values": []
+    },
+    {
+      "name": "adm4_pcode",
+      "type": "VARCHAR",
+      "null_count": 6000,
+      "null_percent": 100.0,
+      "distinct_count": 0,
+      "top_values": []
+    },
+    {
+      "name": "adm4_name",
+      "type": "VARCHAR",
+      "null_count": 6000,
+      "null_percent": 100.0,
+      "distinct_count": 0,
+      "top_values": []
+    },
+    {
+      "name": "name_latin",
+      "type": "VARCHAR",
+      "null_count": 224,
+      "null_percent": 3.73,
+      "distinct_count": 4703,
+      "top_values": []
+    }
+  ],
+  "summary": "6,000 features. geometry types: 4,749 POINT, 1,243 POLYGON, 8 MULTIPOLYGON. 13 of 24 columns are >=50% null (name_en, name_ms, building, healthcare_speciality, operator_type, capacity_persons, addr_full, addr_city, source, adm3_pcode, adm3_name, adm4_pcode, adm4_name).",
+  "temporal": null
+}

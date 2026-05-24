@@ -1,0 +1,14 @@
+Field,Label,Value
+created,Created,2026-05-14T21:03:34.919988
+description,Description,health_facilities (interactive report)
+format,File Format,HTML
+download_url,Download URL,https://production-raw-data-api.s3.amazonaws.com/ISO3/MYS/health_facilities/hotosm_mys_health_facilities_report.html
+id,Resource ID,3b79f2b8-3b47-4ab5-9751-beeac79c5bff
+last_modified,Updated,2026-05-14T21:03:34.902499
+metadata_modified,Metadata Updated,2026-05-15T09:25:01.613993
+microdata,Microdata,False
+dataset_id,Dataset ID,4fd4bc81-f3e2-4c39-a1c1-7a2ddeb7c29a
+resource_type,Resource Type,api
+name,Resource Name,hotosm_mys_health_facilities_report.html
+mimetype,MIME Type,
+size,Size,17.6K

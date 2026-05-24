@@ -1,0 +1,2677 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.760049,3.150318 ]
+    },
+    "properties": {
+    "stop_id":"AG18",
+    "stop_name":"AMPANG",
+    "category":"LRT",
+    "route_id":"AG",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT AMPANG"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.756677,3.140575 ]
+    },
+    "properties": {
+    "stop_id":"AG17",
+    "stop_name":"CAHAYA",
+    "category":"LRT",
+    "route_id":"AG",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT CAHAYA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.752979,3.138324 ]
+    },
+    "properties": {
+    "stop_id":"AG16",
+    "stop_name":"CEMPAKA",
+    "category":"LRT",
+    "route_id":"AG",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT CEMPAKA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.746509,3.134581 ]
+    },
+    "properties": {
+    "stop_id":"AG15",
+    "stop_name":"PANDAN INDAH",
+    "category":"LRT",
+    "route_id":"AG",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT PANDAN INDAH"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.739122,3.130141 ]
+    },
+    "properties": {
+    "stop_id":"AG14",
+    "stop_name":"PANDAN JAYA",
+    "category":"LRT",
+    "route_id":"AG",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT PANDAN JAYA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.727283,3.12329 ]
+    },
+    "properties": {
+    "stop_id":"AG13",
+    "stop_name":"MALURI",
+    "category":"LRT",
+    "route_id":"AG",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT MALURI"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.717922,3.120973 ]
+    },
+    "properties": {
+    "stop_id":"AG12",
+    "stop_name":"MIHARJA",
+    "category":"LRT",
+    "route_id":"AG",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT MIHARJA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.715637,3.128105 ]
+    },
+    "properties": {
+    "stop_id":"AG11",
+    "stop_name":"CHAN SOW LIN",
+    "category":"LRT",
+    "route_id":"AG",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT CHAN SOW LIN"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.711957,3.134879 ]
+    },
+    "properties": {
+    "stop_id":"AG10",
+    "stop_name":"PUDU",
+    "category":"LRT",
+    "route_id":"AG",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT PUDU"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.705984,3.140012 ]
+    },
+    "properties": {
+    "stop_id":"AG9",
+    "stop_name":"HANG TUAH",
+    "category":"LRT",
+    "route_id":"AG",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT HANG TUAH"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.702105,3.144049 ]
+    },
+    "properties": {
+    "stop_id":"AG8",
+    "stop_name":"PLAZA RAKYAT",
+    "category":"LRT",
+    "route_id":"AG",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT PLAZA RAKYAT"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.696377,3.14927 ]
+    },
+    "properties": {
+    "stop_id":"AG7",
+    "stop_name":"MASJID JAMEK",
+    "category":"LRT",
+    "route_id":"AG",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT MASJID JAMEK"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.694485,3.155567 ]
+    },
+    "properties": {
+    "stop_id":"AG6",
+    "stop_name":"BANDARAYA - UOB",
+    "category":"LRT",
+    "route_id":"AG",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT BANDARAYA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.694109,3.161245 ]
+    },
+    "properties": {
+    "stop_id":"AG5",
+    "stop_name":"SULTAN ISMAIL",
+    "category":"LRT",
+    "route_id":"AG",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT SULTAN ISMAIL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.693586,3.166333 ]
+    },
+    "properties": {
+    "stop_id":"AG4",
+    "stop_name":"PWTC",
+    "category":"LRT",
+    "route_id":"AG",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT PWTC"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.695367,3.173497 ]
+    },
+    "properties": {
+    "stop_id":"AG3",
+    "stop_name":"TITIWANGSA",
+    "category":"LRT",
+    "route_id":"AG",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT TITIWANGSA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.695542,3.178484 ]
+    },
+    "properties": {
+    "stop_id":"AG2",
+    "stop_name":"SENTUL",
+    "category":"LRT",
+    "route_id":"AG",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT SENTUL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.695217,3.185897 ]
+    },
+    "properties": {
+    "stop_id":"AG1",
+    "stop_name":"SENTUL TIMUR",
+    "category":"LRT",
+    "route_id":"AG",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT SENTUL TIMUR"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.575462,2.996227 ]
+    },
+    "properties": {
+    "stop_id":"KJ37",
+    "stop_name":"PUTRA HEIGHTS",
+    "category":"LRT",
+    "route_id":"KJ",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT PUTRA HEIGHTS"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.572281,3.009421 ]
+    },
+    "properties": {
+    "stop_id":"KJ36",
+    "stop_name":"SUBANG ALAM",
+    "category":"LRT",
+    "route_id":"KJ",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT SUBANG ALAM"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.572029,3.023151 ]
+    },
+    "properties": {
+    "stop_id":"KJ35",
+    "stop_name":"ALAM MEGAH",
+    "category":"LRT",
+    "route_id":"KJ",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT ALAM MEGAH"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.581711,3.029881 ]
+    },
+    "properties": {
+    "stop_id":"KJ34",
+    "stop_name":"USJ 21",
+    "category":"LRT",
+    "route_id":"KJ",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT USJ 21"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.588348,3.035062 ]
+    },
+    "properties": {
+    "stop_id":"KJ33",
+    "stop_name":"WAWASAN",
+    "category":"LRT",
+    "route_id":"KJ",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT WAWASAN"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.590233,3.04815 ]
+    },
+    "properties": {
+    "stop_id":"KJ32",
+    "stop_name":"TAIPAN",
+    "category":"LRT",
+    "route_id":"KJ",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT TAIPAN"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.592194,3.054956 ]
+    },
+    "properties": {
+    "stop_id":"KJ31",
+    "stop_name":"USJ 7",
+    "category":"LRT",
+    "route_id":"KJ",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT USJ 7"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.585945,3.067182 ]
+    },
+    "properties": {
+    "stop_id":"KJ30",
+    "stop_name":"SS 18",
+    "category":"LRT",
+    "route_id":"KJ",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT SS 18"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.585983,3.075972 ]
+    },
+    "properties": {
+    "stop_id":"KJ29",
+    "stop_name":"SS 15",
+    "category":"LRT",
+    "route_id":"KJ",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT SS 15"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.588127,3.08466 ]
+    },
+    "properties": {
+    "stop_id":"KJ28",
+    "stop_name":"SUBANG JAYA",
+    "category":"LRT",
+    "route_id":"KJ",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT SUBANG JAYA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.590622,3.094732 ]
+    },
+    "properties": {
+    "stop_id":"KJ27",
+    "stop_name":"CGC GLENMARIE",
+    "category":"LRT",
+    "route_id":"KJ",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT CGC GLENMARIE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.586372,3.108643 ]
+    },
+    "properties": {
+    "stop_id":"KJ26",
+    "stop_name":"ARA DAMANSARA",
+    "category":"LRT",
+    "route_id":"KJ",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT ARA DAMANSARA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.591034,3.112094 ]
+    },
+    "properties": {
+    "stop_id":"KJ25",
+    "stop_name":"LEMBAH SUBANG",
+    "category":"LRT",
+    "route_id":"KJ",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT LEMBAH SUBANG"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.6043,3.112497 ]
+    },
+    "properties": {
+    "stop_id":"KJ24",
+    "stop_name":"KELANA JAYA",
+    "category":"LRT",
+    "route_id":"KJ",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT KELANA JAYA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.612856,3.11079 ]
+    },
+    "properties": {
+    "stop_id":"KJ23",
+    "stop_name":"TAMAN BAHAGIA",
+    "category":"LRT",
+    "route_id":"KJ",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT TAMAN BAHAGIA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.623192,3.104716 ]
+    },
+    "properties": {
+    "stop_id":"KJ22",
+    "stop_name":"TAMAN PARAMOUNT",
+    "category":"LRT",
+    "route_id":"KJ",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT TAMAN PARAMOUNT"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.637695,3.104343 ]
+    },
+    "properties": {
+    "stop_id":"KJ21",
+    "stop_name":"ASIA JAYA",
+    "category":"LRT",
+    "route_id":"KJ",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT ASIA JAYA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.645248,3.104086 ]
+    },
+    "properties": {
+    "stop_id":"KJ20",
+    "stop_name":"TAMAN JAYA",
+    "category":"LRT",
+    "route_id":"KJ",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT TAMAN JAYA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.661639,3.114616 ]
+    },
+    "properties": {
+    "stop_id":"KJ19",
+    "stop_name":"UNIVERSITI",
+    "category":"LRT",
+    "route_id":"KJ",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT UNIVERSITI"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.668572,3.115506 ]
+    },
+    "properties": {
+    "stop_id":"KJ18",
+    "stop_name":"KERINCHI",
+    "category":"LRT",
+    "route_id":"KJ",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT KERINCHI"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.672897,3.118735 ]
+    },
+    "properties": {
+    "stop_id":"KJ17",
+    "stop_name":"ABDULLAH HUKUM",
+    "category":"LRT",
+    "route_id":"KJ",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT ABDULLAH HUKUM"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.679062,3.127588 ]
+    },
+    "properties": {
+    "stop_id":"KJ16",
+    "stop_name":"BANK RAKYAT BANGSAR",
+    "category":"LRT",
+    "route_id":"KJ",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT BANK RAKYAT BANGSAR"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.68625,3.13442 ]
+    },
+    "properties": {
+    "stop_id":"KJ15",
+    "stop_name":"KL SENTRAL - REDONE",
+    "category":"LRT",
+    "route_id":"KJ",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT KL SENTRAL - REDONE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.69531,3.142439 ]
+    },
+    "properties": {
+    "stop_id":"KJ14",
+    "stop_name":"PASAR SENI",
+    "category":"LRT",
+    "route_id":"KJ",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT PASAR SENI"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.696815,3.149714 ]
+    },
+    "properties": {
+    "stop_id":"KJ13",
+    "stop_name":"MASJID JAMEK",
+    "category":"LRT",
+    "route_id":"KJ",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT MASJID JAMEK"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.701975,3.156942 ]
+    },
+    "properties": {
+    "stop_id":"KJ12",
+    "stop_name":"DANG WANGI",
+    "category":"LRT",
+    "route_id":"KJ",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT DANG WANGI"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.706608,3.161386 ]
+    },
+    "properties": {
+    "stop_id":"KJ11",
+    "stop_name":"KAMPUNG BARU - CBP COOPBANK PERTAMA",
+    "category":"LRT",
+    "route_id":"KJ",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT KAMPUNG BARU - CBP COOPBANK PERTAMA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.713287,3.158935 ]
+    },
+    "properties": {
+    "stop_id":"KJ10",
+    "stop_name":"KLCC",
+    "category":"LRT",
+    "route_id":"KJ",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT KLCC"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.719017,3.159894 ]
+    },
+    "properties": {
+    "stop_id":"KJ9",
+    "stop_name":"AMPANG PARK",
+    "category":"LRT",
+    "route_id":"KJ",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT AMPANG PARK"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.724489,3.164406 ]
+    },
+    "properties": {
+    "stop_id":"KJ8",
+    "stop_name":"DAMAI",
+    "category":"LRT",
+    "route_id":"KJ",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT DAMAI"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.73184,3.16509 ]
+    },
+    "properties": {
+    "stop_id":"KJ7",
+    "stop_name":"DATO' KERAMAT",
+    "category":"LRT",
+    "route_id":"KJ",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT DATO' KERAMAT"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.735344,3.167204 ]
+    },
+    "properties": {
+    "stop_id":"KJ6",
+    "stop_name":"JELATEK",
+    "category":"LRT",
+    "route_id":"KJ",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT JELATEK"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.73584,3.17576 ]
+    },
+    "properties": {
+    "stop_id":"KJ5",
+    "stop_name":"SETIAWANGSA",
+    "category":"LRT",
+    "route_id":"KJ",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT SETIAWANGSA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.73747,3.199176 ]
+    },
+    "properties": {
+    "stop_id":"KJ4",
+    "stop_name":"SRI RAMPAI",
+    "category":"LRT",
+    "route_id":"KJ",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT SRI RAMPAI"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.731796,3.205751 ]
+    },
+    "properties": {
+    "stop_id":"KJ3",
+    "stop_name":"WANGSA MAJU",
+    "category":"LRT",
+    "route_id":"KJ",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT WANGSA MAJU"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.72197,3.219558 ]
+    },
+    "properties": {
+    "stop_id":"KJ2",
+    "stop_name":"TAMAN MELATI",
+    "category":"LRT",
+    "route_id":"KJ",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT TAMAN MELATI"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.724427,3.231793 ]
+    },
+    "properties": {
+    "stop_id":"KJ1",
+    "stop_name":"GOMBAK",
+    "category":"LRT",
+    "route_id":"KJ",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT GOMBAK"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.575521,2.996016 ]
+    },
+    "properties": {
+    "stop_id":"SP31",
+    "stop_name":"PUTRA HEIGHTS",
+    "category":"LRT",
+    "route_id":"PH",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT PUTRA HEIGHTS"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.596692,2.999808 ]
+    },
+    "properties": {
+    "stop_id":"SP29",
+    "stop_name":"PUCHONG PRIMA",
+    "category":"LRT",
+    "route_id":"PH",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT PUCHONG PRIMA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.605021,3.007913 ]
+    },
+    "properties": {
+    "stop_id":"SP28",
+    "stop_name":"PUCHONG PERDANA",
+    "category":"LRT",
+    "route_id":"PH",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT PUCHONG PERDANA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.612855,3.017111 ]
+    },
+    "properties": {
+    "stop_id":"SP27",
+    "stop_name":"BANDAR PUTERI",
+    "category":"LRT",
+    "route_id":"PH",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT BANDAR PUTERI"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.613514,3.022814 ]
+    },
+    "properties": {
+    "stop_id":"SP26",
+    "stop_name":"TAMAN PERINDUSTRIAN PUCHONG",
+    "category":"LRT",
+    "route_id":"PH",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT TAMAN PERINDUSTRIAN PUCHONG"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.616057,3.033194 ]
+    },
+    "properties": {
+    "stop_id":"SP25",
+    "stop_name":"PUSAT BANDAR PUCHONG",
+    "category":"LRT",
+    "route_id":"PH",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT PUSAT BANDAR PUCHONG"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.62095,3.048101 ]
+    },
+    "properties": {
+    "stop_id":"SP24",
+    "stop_name":"IOI PUCHONG JAYA",
+    "category":"LRT",
+    "route_id":"PH",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT IOI PUCHONG JAYA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.644294,3.050506 ]
+    },
+    "properties": {
+    "stop_id":"SP22",
+    "stop_name":"KINRARA",
+    "category":"LRT",
+    "route_id":"PH",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT KINRARA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.656468,3.0547 ]
+    },
+    "properties": {
+    "stop_id":"SP21",
+    "stop_name":"ALAM SUTERA",
+    "category":"LRT",
+    "route_id":"PH",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT ALAM SUTERA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.662552,3.062229 ]
+    },
+    "properties": {
+    "stop_id":"SP20",
+    "stop_name":"MUHIBBAH",
+    "category":"LRT",
+    "route_id":"PH",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT MUHIBBAH"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.670555,3.062131 ]
+    },
+    "properties": {
+    "stop_id":"SP19",
+    "stop_name":"AWAN BESAR",
+    "category":"LRT",
+    "route_id":"PH",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT AWAN BESAR"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.687074,3.061445 ]
+    },
+    "properties": {
+    "stop_id":"SP18",
+    "stop_name":"SRI PETALING",
+    "category":"LRT",
+    "route_id":"PH",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT SRI PETALING"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.692125,3.058196 ]
+    },
+    "properties": {
+    "stop_id":"SP17",
+    "stop_name":"BUKIT JALIL",
+    "category":"LRT",
+    "route_id":"PH",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT BUKIT JALIL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.708062,3.063842 ]
+    },
+    "properties": {
+    "stop_id":"SP16",
+    "stop_name":"SUNGAI BESI",
+    "category":"LRT",
+    "route_id":"PH",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT SUNGAI BESI"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.711107,3.076058 ]
+    },
+    "properties": {
+    "stop_id":"SP15",
+    "stop_name":"BANDAR TASIK SELATAN",
+    "category":"LRT",
+    "route_id":"PH",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT BANDAR TASIK SELATAN"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.712466,3.089576 ]
+    },
+    "properties": {
+    "stop_id":"SP14",
+    "stop_name":"BANDAR TUN RAZAK",
+    "category":"LRT",
+    "route_id":"PH",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT BANDAR TUN RAZAK"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.706179,3.102201 ]
+    },
+    "properties": {
+    "stop_id":"SP13",
+    "stop_name":"SALAK SELATAN",
+    "category":"LRT",
+    "route_id":"PH",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT SALAK SELATAN"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.714178,3.112609 ]
+    },
+    "properties": {
+    "stop_id":"SP12",
+    "stop_name":"CHERAS",
+    "category":"LRT",
+    "route_id":"PH",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT CHERAS"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.715637,3.128105 ]
+    },
+    "properties": {
+    "stop_id":"SP11",
+    "stop_name":"CHAN SOW LIN",
+    "category":"LRT",
+    "route_id":"PH",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT CHAN SOW LIN"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.711957,3.134879 ]
+    },
+    "properties": {
+    "stop_id":"SP10",
+    "stop_name":"PUDU",
+    "category":"LRT",
+    "route_id":"PH",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT PUDU"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.705984,3.140012 ]
+    },
+    "properties": {
+    "stop_id":"SP9",
+    "stop_name":"HANG TUAH",
+    "category":"LRT",
+    "route_id":"PH",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT HANG TUAH"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.702105,3.144049 ]
+    },
+    "properties": {
+    "stop_id":"SP8",
+    "stop_name":"PLAZA RAKYAT",
+    "category":"LRT",
+    "route_id":"PH",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT PLAZA RAKYAT"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.696377,3.14927 ]
+    },
+    "properties": {
+    "stop_id":"SP7",
+    "stop_name":"MASJID JAMEK",
+    "category":"LRT",
+    "route_id":"PH",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT MASJID JAMEK"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.694485,3.155567 ]
+    },
+    "properties": {
+    "stop_id":"SP6",
+    "stop_name":"BANDARAYA - UOB",
+    "category":"LRT",
+    "route_id":"PH",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT BANDARAYA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.694109,3.161245 ]
+    },
+    "properties": {
+    "stop_id":"SP5",
+    "stop_name":"SULTAN ISMAIL",
+    "category":"LRT",
+    "route_id":"PH",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT SULTAN ISMAIL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.693586,3.166333 ]
+    },
+    "properties": {
+    "stop_id":"SP4",
+    "stop_name":"PWTC",
+    "category":"LRT",
+    "route_id":"PH",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT PWTC"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.695367,3.173497 ]
+    },
+    "properties": {
+    "stop_id":"SP3",
+    "stop_name":"TITIWANGSA",
+    "category":"LRT",
+    "route_id":"PH",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT TITIWANGSA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.695542,3.178484 ]
+    },
+    "properties": {
+    "stop_id":"SP2",
+    "stop_name":"SENTUL",
+    "category":"LRT",
+    "route_id":"PH",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT SENTUL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.695217,3.185897 ]
+    },
+    "properties": {
+    "stop_id":"SP1",
+    "stop_name":"SENTUL TIMUR",
+    "category":"LRT",
+    "route_id":"PH",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"LRT SENTUL TIMUR"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.572052,3.176146 ]
+    },
+    "properties": {
+    "stop_id":"KG04",
+    "stop_name":"KWASA DAMANSARA",
+    "category":"MRT",
+    "route_id":"MRT",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT KWASA DAMANSARA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.564651,3.170112 ]
+    },
+    "properties": {
+    "stop_id":"KG05",
+    "stop_name":"KWASA SENTRAL",
+    "category":"MRT",
+    "route_id":"MRT",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT KWASA SENTRAL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.57869,3.150134 ]
+    },
+    "properties": {
+    "stop_id":"KG06",
+    "stop_name":"KOTA DAMANSARA",
+    "category":"MRT",
+    "route_id":"MRT",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT KOTA DAMANSARA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.593925,3.14948 ]
+    },
+    "properties": {
+    "stop_id":"KG07",
+    "stop_name":"SURIAN",
+    "category":"MRT",
+    "route_id":"MRT",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT SURIAN"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.609077,3.155301 ]
+    },
+    "properties": {
+    "stop_id":"KG08",
+    "stop_name":"MUTIARA DAMANSARA",
+    "category":"MRT",
+    "route_id":"MRT",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT MUTIARA DAMANSARA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.618599,3.14671 ]
+    },
+    "properties": {
+    "stop_id":"KG09",
+    "stop_name":"BANDAR UTAMA",
+    "category":"MRT",
+    "route_id":"MRT",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT BANDAR UTAMA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.630539,3.13613 ]
+    },
+    "properties": {
+    "stop_id":"KG10",
+    "stop_name":"TAMAN TUN DR ISMAIL",
+    "category":"MRT",
+    "route_id":"MRT",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT TAMAN TUN DR ISMAIL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.642471,3.129864 ]
+    },
+    "properties": {
+    "stop_id":"KG12",
+    "stop_name":"PHILEO DAMANSARA",
+    "category":"MRT",
+    "route_id":"MRT",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT PHILEO DAMANSARA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.662857,3.143444 ]
+    },
+    "properties": {
+    "stop_id":"KG13",
+    "stop_name":"PUSAT BANDAR DAMANSARA",
+    "category":"MRT",
+    "route_id":"MRT",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT PUSAT BANDAR DAMANSARA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.665497,3.150977 ]
+    },
+    "properties": {
+    "stop_id":"KG14",
+    "stop_name":"SEMANTAN",
+    "category":"MRT",
+    "route_id":"MRT",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT SEMANTAN"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.687336,3.137317 ]
+    },
+    "properties": {
+    "stop_id":"KG15",
+    "stop_name":"MUZIUM NEGARA",
+    "category":"MRT",
+    "route_id":"MRT",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT MUZIUM NEGARA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.6955642,3.142293265 ]
+    },
+    "properties": {
+    "stop_id":"KG16",
+    "stop_name":"PASAR SENI",
+    "category":"MRT",
+    "route_id":"MRT",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT PASAR SENI"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.70205,3.141969 ]
+    },
+    "properties": {
+    "stop_id":"KG17",
+    "stop_name":"MERDEKA",
+    "category":"MRT",
+    "route_id":"MRT",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT MERDEKA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.710947,3.146503 ]
+    },
+    "properties": {
+    "stop_id":"KG18A",
+    "stop_name":"BUKIT BINTANG ",
+    "category":"MRT",
+    "route_id":"MRT",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT BUKIT BINTANG "
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.720156,3.142403 ]
+    },
+    "properties": {
+    "stop_id":"KG20",
+    "stop_name":"TUN RAZAK EXCHANGE",
+    "category":"MRT",
+    "route_id":"MRT",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT TUN RAZAK EXCHANGE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.722962,3.132829 ]
+    },
+    "properties": {
+    "stop_id":"KG21",
+    "stop_name":"COCHRANE",
+    "category":"MRT",
+    "route_id":"MRT",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT COCHRANE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.727809,3.123623 ]
+    },
+    "properties": {
+    "stop_id":"KG22",
+    "stop_name":"MALURI",
+    "category":"MRT",
+    "route_id":"MRT",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT MALURI"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.729371,3.112547 ]
+    },
+    "properties": {
+    "stop_id":"KG23",
+    "stop_name":"TAMAN PERTAMA",
+    "category":"MRT",
+    "route_id":"MRT",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT TAMAN PERTAMA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.732186,3.104505 ]
+    },
+    "properties": {
+    "stop_id":"KG24",
+    "stop_name":"TAMAN MIDAH",
+    "category":"MRT",
+    "route_id":"MRT",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT TAMAN MIDAH"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.740453,3.090989 ]
+    },
+    "properties": {
+    "stop_id":"KG25",
+    "stop_name":"TAMAN MUTIARA",
+    "category":"MRT",
+    "route_id":"MRT",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT TAMAN MUTIARA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.74522,3.079172 ]
+    },
+    "properties": {
+    "stop_id":"KG26",
+    "stop_name":"TAMAN CONNAUGHT",
+    "category":"MRT",
+    "route_id":"MRT",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT TAMAN CONNAUGHT"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.763552,3.071578 ]
+    },
+    "properties": {
+    "stop_id":"KG27",
+    "stop_name":"TAMAN SUNTEX",
+    "category":"MRT",
+    "route_id":"MRT",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT TAMAN SUNTEX"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.772899,3.062273 ]
+    },
+    "properties": {
+    "stop_id":"KG28",
+    "stop_name":"SRI RAYA",
+    "category":"MRT",
+    "route_id":"MRT",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT SRI RAYA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.775109,3.048223 ]
+    },
+    "properties": {
+    "stop_id":"KG29",
+    "stop_name":"BANDAR TUN HUSSEIN ONN",
+    "category":"MRT",
+    "route_id":"MRT",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT BANDAR TUN HUSSEIN ONN"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.773383,3.041339 ]
+    },
+    "properties": {
+    "stop_id":"KG30",
+    "stop_name":"BATU 11 CHERAS",
+    "category":"MRT",
+    "route_id":"MRT",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT BATU 11 CHERAS"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.771072,3.026413 ]
+    },
+    "properties": {
+    "stop_id":"KG31",
+    "stop_name":"BUKIT DUKUNG",
+    "category":"MRT",
+    "route_id":"MRT",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT BUKIT DUKUNG"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.783857,3.000948 ]
+    },
+    "properties": {
+    "stop_id":"KG33",
+    "stop_name":"SUNGAI JERNIH",
+    "category":"MRT",
+    "route_id":"MRT",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT SUNGAI JERNIH"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.786338,2.994514 ]
+    },
+    "properties": {
+    "stop_id":"KG34",
+    "stop_name":"STADIUM KAJANG",
+    "category":"MRT",
+    "route_id":"MRT",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT STADIUM KAJANG"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.790278,2.982778 ]
+    },
+    "properties": {
+    "stop_id":"KG35",
+    "stop_name":"KAJANG",
+    "category":"MRT",
+    "route_id":"MRT",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT KAJANG"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.5721456,3.1763324 ]
+    },
+    "properties": {
+    "stop_id":"PY01",
+    "stop_name":"KWASA DAMANSARA",
+    "category":"MRT",
+    "route_id":"PYL",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT KWASA DAMANSARA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.578499,3.197266 ]
+    },
+    "properties": {
+    "stop_id":"PY03",
+    "stop_name":"KAMPUNG SELAMAT",
+    "category":"MRT",
+    "route_id":"PYL",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT KAMPUNG SELAMAT"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.581779,3.206429 ]
+    },
+    "properties": {
+    "stop_id":"PY04",
+    "stop_name":"SUNGAI BULOH",
+    "category":"MRT",
+    "route_id":"PYL",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT SUNGAI BULOH"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.592623,3.199892 ]
+    },
+    "properties": {
+    "stop_id":"PY05",
+    "stop_name":"DAMANSARA DAMAI",
+    "category":"MRT",
+    "route_id":"PYL",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT DAMANSARA DAMAI"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.608302,3.198197 ]
+    },
+    "properties": {
+    "stop_id":"PY06",
+    "stop_name":"SRI DAMANSARA BARAT",
+    "category":"MRT",
+    "route_id":"PYL",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT SRI DAMANSARA BARAT"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.621396,3.198815 ]
+    },
+    "properties": {
+    "stop_id":"PY07",
+    "stop_name":"SRI DAMANSARA SENTRAL",
+    "category":"MRT",
+    "route_id":"PYL",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT SRI DAMANSARA SENTRAL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.628716,3.207832 ]
+    },
+    "properties": {
+    "stop_id":"PY08",
+    "stop_name":"SRI DAMANSARA TIMUR",
+    "category":"MRT",
+    "route_id":"PYL",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT SRI DAMANSARA TIMUR"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.639402,3.214438 ]
+    },
+    "properties": {
+    "stop_id":"PY09",
+    "stop_name":"METRO PRIMA",
+    "category":"MRT",
+    "route_id":"PYL",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT METRO PRIMA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.648193,3.211663 ]
+    },
+    "properties": {
+    "stop_id":"PY10",
+    "stop_name":"KEPONG BARU",
+    "category":"MRT",
+    "route_id":"PYL",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT KEPONG BARU"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.655829,3.209544 ]
+    },
+    "properties": {
+    "stop_id":"PY11",
+    "stop_name":"JINJANG",
+    "category":"MRT",
+    "route_id":"PYL",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT JINJANG"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.665749,3.207108 ]
+    },
+    "properties": {
+    "stop_id":"PY12",
+    "stop_name":"SRI DELIMA",
+    "category":"MRT",
+    "route_id":"PYL",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT SRI DELIMA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.675473,3.205521 ]
+    },
+    "properties": {
+    "stop_id":"PY13",
+    "stop_name":"KAMPUNG BATU",
+    "category":"MRT",
+    "route_id":"PYL",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT KAMPUNG BATU"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.6797,3.19563 ]
+    },
+    "properties": {
+    "stop_id":"PY14",
+    "stop_name":"KENTOMEN",
+    "category":"MRT",
+    "route_id":"PYL",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT KENTOMEN"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.681145,3.189319 ]
+    },
+    "properties": {
+    "stop_id":"PY15",
+    "stop_name":"JALAN IPOH",
+    "category":"MRT",
+    "route_id":"PYL",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT JALAN IPOH"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.684742,3.179369 ]
+    },
+    "properties": {
+    "stop_id":"PY16",
+    "stop_name":"SENTUL BARAT",
+    "category":"MRT",
+    "route_id":"PYL",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT SENTUL BARAT"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.69581,3.17408 ]
+    },
+    "properties": {
+    "stop_id":"PY17",
+    "stop_name":"TITIWANGSA",
+    "category":"MRT",
+    "route_id":"PYL",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT TITIWANGSA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.70239,3.17405 ]
+    },
+    "properties": {
+    "stop_id":"PY18",
+    "stop_name":"HOSPITAL KUALA LUMPUR",
+    "category":"MRT",
+    "route_id":"PYL",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT HOSPITAL KUALA LUMPUR"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.71017,3.16794 ]
+    },
+    "properties": {
+    "stop_id":"PY19",
+    "stop_name":"RAJA UDA",
+    "category":"MRT",
+    "route_id":"PYL",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT RAJA UDA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.71781,3.16225 ]
+    },
+    "properties": {
+    "stop_id":"PY20",
+    "stop_name":"AMPANG PARK",
+    "category":"MRT",
+    "route_id":"PYL",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT AMPANG PARK"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.71834,3.15712 ]
+    },
+    "properties": {
+    "stop_id":"PY21",
+    "stop_name":"PERSIARAN KLCC",
+    "category":"MRT",
+    "route_id":"PYL",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT PERSIARAN KLCC"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.71801,3.15145 ]
+    },
+    "properties": {
+    "stop_id":"PY22",
+    "stop_name":"CONLAY",
+    "category":"MRT",
+    "route_id":"PYL",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT CONLAY"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.72034,3.14289 ]
+    },
+    "properties": {
+    "stop_id":"PY23",
+    "stop_name":"TUN RAZAK EXCHANGE",
+    "category":"MRT",
+    "route_id":"PYL",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT TUN RAZAK EXCHANGE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.71663,3.12839 ]
+    },
+    "properties": {
+    "stop_id":"PY24",
+    "stop_name":"CHAN SOW LIN",
+    "category":"MRT",
+    "route_id":"PYL",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT CHAN SOW LIN"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.694124,3.089546 ]
+    },
+    "properties": {
+    "stop_id":"PY27",
+    "stop_name":"KUCHAI",
+    "category":"MRT",
+    "route_id":"PYL",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT KUCHAI"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.699867,3.077688 ]
+    },
+    "properties": {
+    "stop_id":"PY28",
+    "stop_name":"TAMAN NAGA EMAS",
+    "category":"MRT",
+    "route_id":"PYL",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT TAMAN NAGA EMAS"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.7084,3.063737 ]
+    },
+    "properties": {
+    "stop_id":"PY29",
+    "stop_name":"SUNGAI BESI",
+    "category":"MRT",
+    "route_id":"PYL",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT SUNGAI BESI"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.704928,3.041674 ]
+    },
+    "properties": {
+    "stop_id":"PY31",
+    "stop_name":"SERDANG RAYA UTARA",
+    "category":"MRT",
+    "route_id":"PYL",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT SERDANG RAYA UTARA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.707514,3.028463 ]
+    },
+    "properties": {
+    "stop_id":"PY32",
+    "stop_name":"SERDANG RAYA SELATAN",
+    "category":"MRT",
+    "route_id":"PYL",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT SERDANG RAYA SELATAN"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.709,3.0216 ]
+    },
+    "properties": {
+    "stop_id":"PY33",
+    "stop_name":"SERDANG JAYA",
+    "category":"MRT",
+    "route_id":"PYL",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT SERDANG JAYA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.705396,3.008489 ]
+    },
+    "properties": {
+    "stop_id":"PY34",
+    "stop_name":"UPM",
+    "category":"MRT",
+    "route_id":"PYL",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT UPM"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.67244,2.98942 ]
+    },
+    "properties": {
+    "stop_id":"PY36",
+    "stop_name":"TAMAN EQUINE",
+    "category":"MRT",
+    "route_id":"PYL",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT TAMAN EQUINE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.66099,2.98339 ]
+    },
+    "properties": {
+    "stop_id":"PY37",
+    "stop_name":"PUTRA PERMAI",
+    "category":"MRT",
+    "route_id":"PYL",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT PUTRA PERMAI"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.654812,2.964974 ]
+    },
+    "properties": {
+    "stop_id":"PY38",
+    "stop_name":"16 SIERRA",
+    "category":"MRT",
+    "route_id":"PYL",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT 16 SIERRA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.6573,2.95 ]
+    },
+    "properties": {
+    "stop_id":"PY39",
+    "stop_name":"CYBERJAYA UTARA",
+    "category":"MRT",
+    "route_id":"PYL",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT CYBERJAYA UTARA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.6659,2.9384 ]
+    },
+    "properties": {
+    "stop_id":"PY40",
+    "stop_name":"CYBERJAYA CITY CENTRE",
+    "category":"MRT",
+    "route_id":"PYL",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT CYBERJAYA CITY CENTRE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.6715,2.9313 ]
+    },
+    "properties": {
+    "stop_id":"PY41",
+    "stop_name":"PUTRAJAYA SENTRAL",
+    "category":"MRT",
+    "route_id":"PYL",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MRT PUTRAJAYA SENTRAL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.687817,3.132852 ]
+    },
+    "properties": {
+    "stop_id":"MR1",
+    "stop_name":"KL SENTRAL",
+    "category":"MR",
+    "route_id":"MR",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MR KL SENTRAL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.69085,3.13132 ]
+    },
+    "properties": {
+    "stop_id":"MR2",
+    "stop_name":"TUN SAMBANTHAN",
+    "category":"MR",
+    "route_id":"MR",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MR TUN SAMBANTHAN"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.699268,3.138743 ]
+    },
+    "properties": {
+    "stop_id":"MR3",
+    "stop_name":"MAHARAJALELA",
+    "category":"MR",
+    "route_id":"MR",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MR MAHARAJALELA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.706029,3.140511 ]
+    },
+    "properties": {
+    "stop_id":"MR4",
+    "stop_name":"HANG TUAH",
+    "category":"MR",
+    "route_id":"MR",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MR HANG TUAH"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.70945,3.14283 ]
+    },
+    "properties": {
+    "stop_id":"MR5",
+    "stop_name":"IMBI",
+    "category":"MR",
+    "route_id":"MR",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MR IMBI"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.7115,3.146022 ]
+    },
+    "properties": {
+    "stop_id":"MR6",
+    "stop_name":"BUKIT BINTANG ",
+    "category":"MR",
+    "route_id":"MR",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MR BUKIT BINTANG "
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.710432,3.150878 ]
+    },
+    "properties": {
+    "stop_id":"MR7",
+    "stop_name":"RAJA CHULAN",
+    "category":"MR",
+    "route_id":"MR",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MR RAJA CHULAN"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.704809,3.156214 ]
+    },
+    "properties": {
+    "stop_id":"MR8",
+    "stop_name":"BUKIT NANAS",
+    "category":"MR",
+    "route_id":"MR",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MR BUKIT NANAS"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.69888,3.15935 ]
+    },
+    "properties": {
+    "stop_id":"MR9",
+    "stop_name":"MEDAN TUANKU",
+    "category":"MR",
+    "route_id":"MR",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MR MEDAN TUANKU"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.698379,3.167358 ]
+    },
+    "properties": {
+    "stop_id":"MR10",
+    "stop_name":"CHOW KIT",
+    "category":"MR",
+    "route_id":"MR",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MR CHOW KIT"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.696022,3.173192 ]
+    },
+    "properties": {
+    "stop_id":"MR11",
+    "stop_name":"TITIWANGSA",
+    "category":"MR",
+    "route_id":"MR",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"MR TITIWANGSA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.6123,3.0828 ]
+    },
+    "properties": {
+    "stop_id":"BRT1",
+    "stop_name":"SUNWAY-SETIA JAYA",
+    "category":"BRT",
+    "route_id":"BRT",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"BRT SUNWAY-SETIA JAYA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.6101,3.0761 ]
+    },
+    "properties": {
+    "stop_id":"BRT2",
+    "stop_name":"MENTARI",
+    "category":"BRT",
+    "route_id":"BRT",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"BRT MENTARI"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.6107,3.0706 ]
+    },
+    "properties": {
+    "stop_id":"BRT3",
+    "stop_name":"SUNWAY LAGOON ",
+    "category":"BRT",
+    "route_id":"BRT",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"BRT SUNWAY LAGOON "
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.6087,3.0656 ]
+    },
+    "properties": {
+    "stop_id":"BRT4",
+    "stop_name":"SUNMED",
+    "category":"BRT",
+    "route_id":"BRT",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"BRT SUNMED"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.6016,3.0654 ]
+    },
+    "properties": {
+    "stop_id":"BRT5",
+    "stop_name":"SunU-Monash",
+    "category":"BRT",
+    "route_id":"BRT",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"BRT SunU-Monash"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.5969,3.0617 ]
+    },
+    "properties": {
+    "stop_id":"BRT6",
+    "stop_name":"SOUTH QUAY-USJ 1",
+    "category":"BRT",
+    "route_id":"BRT",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"BRT SOUTH QUAY-USJ 1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.5919,3.0553 ]
+    },
+    "properties": {
+    "stop_id":"BRT7",
+    "stop_name":"USJ7",
+    "category":"BRT",
+    "route_id":"BRT",
+    "isOKU":"true",
+    "status":"valid",
+    "search":"BRT USJ7"
+    }
+  }
+]
+}
