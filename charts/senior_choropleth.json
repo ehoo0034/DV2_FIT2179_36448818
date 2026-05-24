@@ -1,0 +1,64 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Senior Citizen Population Density (65+)",
+    "subtitle": [
+      "High senior population density in Kuala Lumpur may be driven by good",
+      "accessibility to essential services including healthcare within an",
+      "established urban centre"
+    ],
+    "anchor": "start",
+    "fontSize": 18
+  },
+  "width": 600,
+  "height": 600,
+  "projection": {
+    "type": "mercator",
+    "center": [101.6869, 3.1390],
+    "scale": 58000
+  },
+  "layer": [
+    {
+      "description": "Base Layer: Shows district outlines",
+      "data": {
+        "url": "data/malaysia.district.geojson",
+        "format": {"type": "json", "property": "features"}
+      },
+      "transform": [
+        {"filter": "datum.properties.state == 'SGR' || datum.properties.state == 'KUL' || datum.properties.state == 'PJY'"}
+      ],
+      "mark": {"type": "geoshape", "fill": "#f0f0f0", "stroke": "white"}
+    },
+    {
+      "description": "Data Layer",
+      "data": {"url": "data/spatial_normalized_senior_population_km2.csv"},
+      "transform": [
+        {
+          "lookup": "district",
+          "from": {
+            "data": {
+              "url": "data/malaysia.district.geojson",
+              "format": {"type": "json", "property": "features"}
+            },
+            "key": "properties.name",
+            "fields": ["geometry", "type"]
+          }
+        }
+      ],
+      "mark": {"type": "geoshape", "stroke": "white", "strokeWidth": 1},
+      "encoding": {
+        "color": {
+          "field": "senior_density_per_deg",
+          "type": "quantitative",
+          "scale": {"scheme": "purples"},
+          "title": "Density (Seniors/km^2)"
+        },
+        "tooltip": [
+          {"field": "district", "title": "District"},
+          {"field": "senior_density_per_deg", "title": "Density", "format": ".2f"}
+        ]
+      }
+    }
+  ],
+  "config": {"view": {"stroke": "transparent"}}
+}

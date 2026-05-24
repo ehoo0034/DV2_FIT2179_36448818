@@ -1,0 +1,113 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Healthcare Accessibility by Public Transit",
+    "subtitle": "1km radius walking buffers around each transit station",
+    "anchor": "start",
+    "fontSize": 16
+  },
+  "width": 600,
+  "height": 600,
+  "params": [
+    {
+      "name": "Line_selection",
+      "bind": {
+        "input": "select",
+        "options": [null, "KJ", "MRT", "AG", "PH", "PYL", "MR", "BRT"],
+        "labels": ["Show All", "LRT Kelana Jaya", "MRT Kajang", "LRT Ampang", "LRT Sri Petaling", "MRT Putrajaya", "KL Monorail", "BRT Sunway"],
+        "name": "Filter Transit: "
+      }
+    },
+    {
+      "name": "zoom_level",
+      "value": 58000,
+      "bind": {
+        "input": "range",
+        "min": 20000,
+        "max": 300000,
+        "step": 1000,
+        "name": "Map Zoom: "
+      }
+    }
+  ],
+  "projection": {
+    "type": "mercator",
+    "center": [101.6869, 3.1390],
+    "scale": {"expr": "zoom_level"}
+  },
+  "layer": [
+    {
+      "description": "DISTRICT LINES LAYER",
+      "data": {
+        "url": "data/malaysia.district.geojson",
+        "format": {"type": "json", "property": "features"}
+      },
+      "transform": [
+        {
+          "filter": "datum.properties.state == 'SGR' || datum.properties.state == 'KUL' || datum.properties.state == 'PJY'"
+        }
+      ],
+      "mark": {"type": "geoshape", "fill": "transparent", "stroke": "#bbbbbb", "strokeWidth": 1.2}
+    },
+    {
+      "description": "HEALTHCARE LAYER",
+      "data": {
+        "url": "data/hotosm_mys_health_facilities_points_geojson.geojson",
+        "format": {"type": "json", "property": "features"}
+      },
+      "transform": [
+        {"filter": "datum.properties.amenity == 'hospital' || datum.properties.amenity == 'clinic'"},
+        {"calculate": "'Healthcare Facility'", "as": "facility_type"}
+      ],
+      "mark": {"type": "point", "filled": true, "size": 40, "opacity": 0.3, "color": "#7f8c8d"},
+      "encoding": {
+        "longitude": {"field": "geometry.coordinates[0]", "type": "quantitative"},
+        "latitude": {"field": "geometry.coordinates[1]", "type": "quantitative"},
+        "shape": {
+          "field": "facility_type",
+          "type": "nominal",
+          "legend": {"title": null}
+        }
+      }
+    },
+    {
+      "description": "ACCESSIBILITY BUFFER LAYER",
+      "data": {"url": "data/rail_data/stops.txt", "format": {"type": "csv"}},
+      "transform": [
+        {"filter": "indexof(['KJ', 'MRT', 'AG', 'PH', 'PYL', 'MR', 'BRT'], datum.route_id) != -1"},
+        {"filter": "Line_selection == null || datum.route_id == Line_selection"}
+      ],
+      "mark": {"type": "circle", "size": 2800, "opacity": 0.05, "color": "#999"},
+      "encoding": {
+        "longitude": {"field": "stop_lon", "type": "quantitative"},
+        "latitude": {"field": "stop_lat", "type": "quantitative"}
+      }
+    },
+    {
+      "description": "STATION POINTS LAYER",
+      "data": {"url": "data/rail_data/stops.txt", "format": {"type": "csv"}},
+      "transform": [
+        {"filter": "indexof(['KJ', 'MRT', 'AG', 'PH', 'PYL', 'MR', 'BRT'], datum.route_id) != -1"},
+        {"filter": "Line_selection == null || datum.route_id == Line_selection"}
+      ],
+      "mark": {"type": "circle", "size": 90, "opacity": 1, "stroke": "white", "strokeWidth": 1.5},
+      "encoding": {
+        "longitude": {"field": "stop_lon", "type": "quantitative"},
+        "latitude": {"field": "stop_lat", "type": "quantitative"},
+        "color": {
+          "field": "route_id",
+          "type": "nominal",
+          "title": "Rail Lines",
+          "scale": {
+            "domain": ["KJ", "MRT", "AG", "PH", "PYL", "MR", "BRT"],
+            "range": ["#ef1c23", "#3498db", "#e67e22", "#9b59b6", "#f1c40f", "#2c3e50", "#ff7f50"]
+          },
+          "legend": {
+            "labelExpr": "{'KJ': 'LRT Kelana Jaya', 'MRT': 'MRT Kajang', 'AG': 'LRT Ampang', 'PH': 'LRT Sri Petaling', 'PYL': 'MRT Putrajaya', 'MR': 'KL Monorail', 'BRT': 'BRT Sunway'}[datum.label]"
+          }
+        }
+      }
+    }
+  ],
+  "config": {"view": {"stroke": "transparent"}}
+}

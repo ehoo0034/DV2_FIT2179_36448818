@@ -1,0 +1,46 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "How People Travel to Healthcare Facilities",
+    "subtitle": "Percentage share of transport modes in the KL-Selangor area",
+    "anchor": "start",
+    "fontSize": 16
+  },
+  "width": 600,
+  "height": 100,
+  "data": {
+    "url": "data/commute_mode.csv",
+    "format": {"type": "csv"}
+  },
+  "mark": {"type": "bar", "tooltip": true},
+  "encoding": {
+    "x": {
+      "field": "Percentage",
+      "type": "quantitative",
+      "title": "Percentage (%)",
+      "stack": "normalize"
+    },
+    "color": {
+      "field": "Category",
+      "type": "nominal",
+      "scale": {
+        "domain": ["Private Car", "Motorcycle", "Rail (LRT/MRT/Monorail)", "Bus", "Active/E-Hailing"],
+        "range": ["#2c3e50", "#546e7a", "#3498db", "#f1c40f", "#9b59b6"]
+      },
+      "legend": {"orient": "bottom", "title": null}
+    },
+    "order": {
+      "field": "Percentage",
+      "op": "sum",
+      "sort": "descending"
+    },
+    "tooltip": [
+      {"field": "Category", "type": "nominal"},
+      {"field": "Percentage", "type": "quantitative", "format": ".0f"}
+    ]
+  },
+  "config": {
+    "view": {"stroke": null},
+    "axis": {"grid": false}
+  }
+}

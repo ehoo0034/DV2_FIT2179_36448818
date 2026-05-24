@@ -1,0 +1,54 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "KL-Selangor Demographic Structure",
+    "subtitle": "Age distribution by gender (2024 Estimates)",
+    "anchor": "start",
+    "fontSize": 16
+  },
+  "width": 600,
+  "height": 300,
+  "data": {"url": "data/population_district.csv"},
+  "transform": [
+    {"filter": "datum.date == '2024-01-01'"},
+    {"filter": "datum.ethnicity == 'overall'"},
+    {"filter": "datum.sex != 'both'"},
+    {"filter": "datum.state == 'Selangor' || datum.state == 'W.P. Kuala Lumpur' || datum.state == 'W.P. Putrajaya'"},
+    {"filter": "datum.age != 'overall'"},
+    {
+      "calculate": "datum.age == '0-4' || datum.age == '5-9' || datum.age == '10-14' ? '0-14' : datum.age == '15-19' || datum.age == '20-24' ? '15-24' : datum.age == '25-29' || datum.age == '30-34' || datum.age == '35-39' || datum.age == '40-44' ? '25-44' : datum.age == '45-49' || datum.age == '50-54' || datum.age == '55-59' || datum.age == '60-64' ? '45-64' : '65+'",
+      "as": "age_group"
+    },
+    {"aggregate": [{"op": "sum", "field": "population", "as": "total"}], "groupby": ["age_group", "sex"]},
+    {"calculate": "datum.sex == 'male' ? -datum.total : datum.total", "as": "signed_population"}
+  ],
+  "mark": "bar",
+  "encoding": {
+    "y": {
+      "field": "age_group",
+      "type": "ordinal",
+      "title": "Age Group",
+      "sort": ["65+", "45-64", "25-44", "15-24", "0-14"]
+    },
+    "x": {
+      "field": "signed_population",
+      "type": "quantitative",
+      "title": "Population",
+      "axis": {"format": "s", "labelExpr": "abs(datum.value)"}
+    },
+    "color": {
+      "field": "sex",
+      "type": "nominal",
+      "scale": {"range": ["#1f77b4", "#e7ba52"]}
+    },
+    "tooltip": [
+      {"field": "age_group", "title": "Age Group"},
+      {"field": "sex", "title": "Gender"},
+      {"field": "total", "title": "Population", "format": ","}
+    ]
+  },
+  "config": {
+    "view": {"stroke": null},
+    "axis": {"grid": false}
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Growth in Public Healthcare Utilization",
+    "subtitle": "Annual hospital admissions (2020-2025)",
+    "anchor": "start",
+    "fontSize": 16
+  },
+  "width": 600,
+  "height": 300,
+  "data": {
+    "url": "data/hospital.csv",
+    "format": {
+      "type": "csv",
+      "parse": {"admitted_total": "number", "date": "date"}
+    }
+  },
+  "transform": [
+    {"timeUnit": "year", "field": "date", "as": "year"},
+    {
+      "aggregate": [{"op": "sum", "field": "admitted_total", "as": "visits"}],
+      "groupby": ["year", "state"]
+    },
+    {
+      "filter": "datum.state == 'Selangor' || datum.state == 'W.P. Kuala Lumpur'"
+    }
+  ],
+  "layer": [
+    {
+      "mark": {"type": "line", "point": true, "strokeWidth": 3},
+      "encoding": {
+        "x": {
+          "field": "year", 
+          "type": "temporal", 
+          "title": "Year", 
+          "axis": {"format": "%Y", "labelAngle": 0, "tickCount": 7}
+        },
+        "y": {"field": "visits", "type": "quantitative", "title": "Total Admissions"},
+        "color": {
+          "field": "state", 
+          "type": "nominal", 
+          "title": "Region",
+          "scale": {"domain": ["Selangor", "W.P. Kuala Lumpur"], "range": ["#3498db", "#e74c3c"]}
+        },
+        "order": {
+          "field": "state",
+          "sort": ["Selangor", "W.P. Kuala Lumpur"]
+        }
+      }
+    },
+    {
+      "transform": [{"filter": "year(datum.year) == 2021 && datum.state == 'Selangor'"}],
+      "mark": {"type": "rule", "color": "#555", "strokeDash": [3, 3]},
+      "encoding": {
+        "x": {"field": "year", "type": "temporal"}
+      }
+    },
+    {
+      "transform": [
+        {"filter": "year(datum.year) == 2021 && datum.state == 'Selangor'"},
+        {"calculate": "datum.visits + 30000", "as": "annotation_y"}
+      ],
+      "mark": {
+        "type": "text", 
+        "align": "left", 
+        "dx": 10, 
+        "dy": 0, 
+        "color": "#555", 
+        "fontWeight": "bold", 
+        "fontSize": 11,
+        "lineBreak": "\n"
+      },
+      "encoding": {
+        "x": {"field": "year", "type": "temporal"},
+        "y": {"field": "annotation_y", "type": "quantitative"},
+        "text": {"value": "2021: Pandemic\ndriven surge"}
+      }
+    }
+  ],
+  "encoding": {
+    "tooltip": [
+      {"field": "year", "type": "temporal", "title": "Admission Year", "format": "%Y"},
+      {"field": "state", "type": "nominal", "title": "State"},
+      {"field": "visits", "type": "quantitative", "title": "Total Admissions", "format": ","}
+    ]
+  }
+}

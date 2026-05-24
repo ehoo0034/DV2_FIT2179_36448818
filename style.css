@@ -1,0 +1,132 @@
+/* General Page Layout */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f7f6;
+  line-height: 1.6;
+  color: #333;
+  max-width: 950px; 
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* Typography */
+h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  color: #1a2a3a;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.intro-container {
+  max-width: 550px; /* ~60 characters wide */
+  margin: 0 auto 40px auto;
+  text-align: center;
+  color: #4a4a4a; /* Darker grey for the explanation text */
+  font-size: 1.1em;
+}
+
+.subtitle {
+  font-style: italic;
+  color: #7f8c8d;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Chart Containers */
+.vis-container {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  margin-bottom: 50px;
+  display: block; /* Changed from flex to block to prevent text squishing */
+}
+
+/* Universal Chart ID styling for all 12 charts */
+#chart1, #chart2, #chart3, #chart4, #chart5, #chart6,
+#chart7, #chart8, #chart9, #chart10, #chart11, #chart12 {
+  width: 100%;
+  min-height: 100px; /* Reserves space so the container doesn't collapse to 0px */
+  margin: 20px 0;
+  display: flex;
+  justify-content: center; /* Centers the actual chart within the container */
+  overflow: visible;
+}
+
+/* Ensures Vega's internal canvas stays centered */
+.vega-embed {
+  margin: 0 auto;
+}
+
+/* Dividers and Footer */
+hr {
+  border: 0;
+  height: 1px;
+  background: #e0e0e0;
+  margin: 60px 0;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  color: #95a5a6;
+  margin-top: 40px;
+}
+
+/* Paragraph styling to prevent text overflow */
+p {
+  text-align: left;
+  max-width: 100%;
+  word-wrap: break-word;
+}
+
+/* Chart 11 Layout */
+.chart11-wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.metric-box {
+  width: 280px;
+  padding: 15px;
+  background: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 0.9em;
+}
+
+.metric-box h3 {
+  margin-top: 0;
+  color: #1a2a3a;
+}
+
+.horizontal-metrics {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.horizontal-metrics th,
+.horizontal-metrics td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.horizontal-metrics th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+}
+
+.metric-box {
+  width: 96%;
+}
+
+footer .data-sources {
+  text-align: left;
+  color: #666;
+}

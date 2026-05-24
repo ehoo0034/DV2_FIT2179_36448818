@@ -1,0 +1,52 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Senior Population vs Healthcare Accessibility",
+    "subtitle": "District comparison of density and isolation from transit stations",
+    "anchor": "start",
+    "fontSize": 16
+  },
+  "width": 600,
+  "height": 400,
+  "data": {"url": "data/risk_density_data.csv"},
+  "layer": [
+    {
+      "mark": {"type": "circle", "size": 300, "tooltip": true, "stroke": "white", "strokeWidth": 2},
+      "encoding": {
+        "x": {
+          "field": "senior_density_per_km2",
+          "type": "quantitative",
+          "title": "Senior Density (per km²)",
+          "scale": {"zero": false}
+        },
+        "y": {
+          "field": "DistanceRisk",
+          "type": "quantitative",
+          "title": "Isolation Score (Distance Risk)",
+          "scale": {"zero": false}
+        },
+        "color": {
+          "field": "Vulnerability",
+          "type": "quantitative",
+          "scale": {"scheme": "reds"},
+          "title": "Vulnerability Index"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 10,
+        "dy": -10,
+        "fontSize": 11,
+        "fontWeight": "bold"
+      },
+      "encoding": {
+        "x": {"field": "senior_density_per_km2", "type": "quantitative"},
+        "y": {"field": "DistanceRisk", "type": "quantitative"},
+        "text": {"field": "district", "type": "nominal"}
+      }
+    }
+  ]
+}

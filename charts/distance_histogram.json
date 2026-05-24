@@ -1,0 +1,52 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Proximity to Nearest Transit Station",
+    "subtitle": "Number of healthcare facilities by walking distance",
+    "anchor": "start",
+    "fontSize": 16
+  },
+  "width": 600,
+  "height": 250,
+  "data": {
+    "url": "data/facilities_distance_to_transit.csv"
+  },
+  "mark": {
+    "type": "bar",
+    "cornerRadiusTopLeft": 4,
+    "cornerRadiusTopRight": 4,
+    "tooltip": true
+  },
+  "encoding": {
+    "x": {
+      "field": "range",
+      "type": "nominal",
+      "title": "Distance to Station",
+      "sort": ["0-500m", "500m-1km", "1km-2km", "2km-5km", ">5km"],
+      "axis": {"labelAngle": 0}
+    },
+    "y": {
+      "field": "count",
+      "type": "quantitative",
+      "title": "Number of Facilities"
+    },
+    "color": {
+      "field": "status",
+      "type": "nominal",
+      "scale": {
+        "domain": ["Accessible", "Gap"],
+        "range": ["#1abc9c", "#34495e"]
+      },
+      "legend": {"orient": "bottom", "title": null}
+    },
+    "tooltip": [
+      {"field": "range", "title": "Distance"},
+      {"field": "count", "title": "Total Facilities"},
+      {"field": "status", "title": "Access Category"}
+    ]
+  },
+  "config": {
+    "view": {"stroke": null},
+    "axis": {"grid": false}
+  }
+}

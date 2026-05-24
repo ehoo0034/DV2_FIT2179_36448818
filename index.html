@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare Access in the KL-Selangor Transit Region</title>
+    
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Healthcare Access in the KL-Selangor Transit Region</h1>
+        <div class="intro-container">
+        <p>
+            This visualization aims to study the link between public 
+            transit accessibility and senior mobility to healthcare 
+            facilities. From the results, we identify gaps and suggest 
+            opportunities for improved infrastructure.
+        </p>
+        </div>
+    </header>
+
+    <main>
+        <section class="vis-container">
+            <h2>Section 1: The Overview</h2>
+            <div class="vis-grid">
+                <div class="sub-vis">
+                    <h3>1.1 Healthcare Burden</h3>
+                    <div id="chart1"></div>
+                </div>
+                <div class="sub-vis">
+                    <h3>1.2 Essential Usage</h3>
+                    <div id="chart2"></div>
+                </div>
+                <div class="sub-vis">
+                    <h3>1.3 Public vs Private Healthcare Facilities</h3>
+                    <div id="chart3"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="vis-container">
+            <h2>Section 2: Mapping the Gap</h2>
+            <div class="vis-grid">
+                <div class="sub-vis">
+                    <h3>2.1 Accessibility Buffers</h3>
+                    <div id="chart4"></div>
+                </div>
+                <div class="sub-vis">
+                    <h3>2.2 Distance Distribution</h3>
+                    <div id="chart5"></div>
+                </div>
+                <div class="sub-vis">
+                    <h3>2.3 District Ranking</h3>
+                    <div id="chart6"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="vis-container">
+            <h2>Section 3: The Aging Demographic</h2>
+            <div class="vis-grid">
+                <div class="sub-vis">
+                    <h3>3.1 Senior Density</h3>
+                    <div id="chart7"></div>
+                </div>
+                <div class="sub-vis">
+                    <h3>3.2 Aging Population</h3>
+                    <div id="chart8"></div>
+                </div>
+                <div class="sub-vis">
+                    <h3>3.3 Risk Matrix</h3>
+                    <div id="chart9"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="vis-container">
+            <h2>Section 4: System Intensity & Barriers</h2>
+            <div class="vis-grid">
+                <div class="sub-vis">
+                    <h3>4.1 Station Intensity</h3>
+                    <div id="chart10"></div>
+                </div>
+                <div class="sub-vis">
+                    <h3>4.2 Station Performance Profile</h3>
+                    <div class="chart-container">
+                    <div id="chart11"></div>
+                    <div class="metric-box">
+                        <h3>Metric Definitions</h3>
+
+                        <table class="horizontal-metrics">
+                            <tr>
+                                <th>Hospital Proximity</th>
+                                <th>Frequency Trains Per Hour</th>
+                                <th>Accessibility</th>
+                                <th>Interconnectivity</th>
+                                <th>Average Fare RM</th>
+                            </tr>
+
+                            <tr>
+                                <td>The more hospitals are near the stations, the higher the score.</td>
+                                <td>More frequent train services receive higher scores.</td>
+                                <td>Counted by the average number of lifts for each station by each transit line.</td>
+                                <td>Better connectivity and transfer opportunities.</td>
+                                <td>Lower fares receive higher scores.</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                </div>
+                <div class="sub-vis">
+                    <h3>4.3 Station Ridership</h3>
+                    <div id="chart12"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="data-sources">
+        <h3>Data Sources</h3>
+        <ul>
+            <li>Ministry of Health Malaysia (MoH-Malaysia GitHub, 3 Jun 2025)</li>
+            <li>Asian Transport Observatory (Dec 2024)</li>
+            <li>Humanitarian Data Exchange – Malaysia Health Facilities (OpenStreetMap, 8 Apr 2026 & 14 May 2026)</li>
+            <li>JAKIM Malaysia District Boundaries GeoJSON (GitHub, 13 Oct 2022)</li>
+            <li>data.gov.my GTFS Static API – Prasarana Malaysia (accessed May 2026)</li>
+        </ul>
+    </div>
+        <p class="authorship">
+        <strong>Author:</strong> Emily Ho Shen Yen (Student ID: 36448818)<br>
+        <strong>Date:</strong> 24/5/2026
+    </p>
+    </footer>
+
+    <script type="text/javascript">
+        // --- Section 1: Context (Pending) ---
+        vegaEmbed('#chart1', 'charts/health_visits_line.json').catch(console.error);
+        vegaEmbed('#chart2', 'charts/transit_usage_stacked.json').catch(console.error);
+        vegaEmbed('#chart3', 'charts/hospital_waffle.json').catch(console.error);
+
+        // --- Section 2: Spatial (Active: 4) ---
+        vegaEmbed('#chart4', 'charts/healthcare_access_from_transit.json').catch(console.error);
+        vegaEmbed('#chart5', 'charts/distance_histogram.json').catch(console.error);
+        vegaEmbed('#chart6', 'charts/district_access_bar.json').catch(console.error);
+
+        // --- Section 3: Demographics (Active: 7) ---
+        vegaEmbed('#chart7', 'charts/senior_choropleth.json').catch(console.error);
+        vegaEmbed('#chart8', 'charts/population_pyramid.json').catch(console.error);
+        vegaEmbed('#chart9', 'charts/risk_scatter.json').catch(console.error);
+
+        // --- Section 4: Efficiency (Active: 12) ---
+        vegaEmbed('#chart10', 'charts/station_heatmap.json').catch(console.error);
+        vegaEmbed('#chart11', 'charts/performance_radar.json').catch(console.error);
+        vegaEmbed('#chart12', 'charts/ridership_bar.json').catch(console.error);
+    </script>
+</body>
+</html>

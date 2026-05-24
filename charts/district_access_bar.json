@@ -1,0 +1,33 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Transit-Disconnected Facilities in KL-Selangor Region",
+    "subtitle": "Number of facilities outside 1km transit buffer",
+    "anchor": "start",
+    "fontSize": 16
+  },
+  "width": 600,
+  "height": 300,
+  "data": {
+    "url": "data/kl_surrounding_access.csv"
+  },
+  "mark": {
+    "type": "bar",
+    "cornerRadiusEnd": 4,
+    "tooltip": true,
+    "color": "#e67e22"
+  },
+  "encoding": {
+    "y": {
+      "field": "District",
+      "type": "nominal",
+      "title": null,
+      "sort": "-x"
+    },
+    "x": {
+      "field": "Count",
+      "type": "quantitative",
+      "title": "Number of Facilities"
+    }
+  }
+}

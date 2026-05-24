@@ -1,0 +1,195 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Multi-Dimensional Transit Performance Profiles",
+    "subtitle": "Evaluating KL-Selangor transit region across 5 healthcare-critical metrics (Scale 1-10)",
+    "anchor": "start",
+    "fontSize": 16,
+    "subtitleFontSize": 12,
+    "subtitleColor": "#666"
+  },
+  "width": 600,
+  "height": 600,
+  "data": {
+    "url": "data/normalized_line_performance_radar.csv",
+    "format": {"type": "csv"}
+  },
+  "params": [
+    {
+      "name": "selectedLine",
+      "value": "Show All",
+      "bind": {
+        "input": "select",
+        "options": [
+          "Show All",
+          "LRT Kelana Jaya",
+          "MRT Kajang",
+          "LRT Ampang",
+          "LRT Sri Petaling",
+          "MRT Putrajaya",
+          "KL Monorail",
+          "BRT Sunway"
+        ],
+        "name": "Select Rail Line Profile: "
+      }
+    }
+  ],
+  "transform": [
+    {
+      "calculate": "datum.Line == 'Kelana Jaya' ? 'LRT Kelana Jaya' : datum.Line == 'MRT Kajang' ? 'MRT Kajang' : datum.Line == 'LRT Ampang' ? 'LRT Ampang' : datum.Line == 'LRT Sri Petaling' ? 'LRT Sri Petaling' : datum.Line == 'MRT Putrajaya' ? 'MRT Putrajaya' : datum.Line == 'KL Monorail' ? 'KL Monorail' : datum.Line == 'BRT Sunway' ? 'BRT Sunway' : datum.Line" ,
+      "as": "LineDisplay"
+    },
+    {
+      "filter": "selectedLine == 'Show All' || datum.LineDisplay == selectedLine"
+    },
+    {
+      "calculate": "datum.Attribute == 'Hospital Proximity' ? 0 : datum.Attribute == 'Frequency Trains Per Hour' ? 1 : datum.Attribute == 'Accessibility' ? 2 : datum.Attribute == 'Interconnectivity' ? 3 : 4",
+      "as": "key"
+    },
+    {
+      "calculate": "datum.key * 2 * PI / 5",
+      "as": "angle"
+    },
+    {
+      "calculate": "datum.Score * sin(datum.angle)",
+      "as": "x"
+    },
+    {
+      "calculate": "datum.Score * cos(datum.angle)",
+      "as": "y"
+    },
+    {
+      "calculate": "11.8 * sin(datum.angle)",
+      "as": "label_x"
+    },
+    {
+      "calculate": "11.8 * cos(datum.angle)",
+      "as": "label_y"
+    }
+  ],
+  "layer": [
+    {
+      "description": "Outer reference pentagon grid ring at maximum score 10",
+      "data": {
+        "values": [
+          {"k": 0}, {"k": 1}, {"k": 2}, {"k": 3}, {"k": 4}, {"k": 0}
+        ]
+      },
+      "transform": [
+        {"calculate": "10 * sin(datum.k * 2 * PI / 5)", "as": "grid_x"},
+        {"calculate": "10 * cos(datum.k * 2 * PI / 5)", "as": "grid_y"}
+      ],
+      "mark": {"type": "line", "color": "#dddddd", "strokeWidth": 1},
+      "encoding": {
+        "x": {"field": "grid_x", "type": "quantitative", "scale": {"domain": [-14, 14]}, "axis": null},
+        "y": {"field": "grid_y", "type": "quantitative", "scale": {"domain": [-14, 14]}, "axis": null}
+      }
+    },
+    {
+      "description": "Mid reference pentagon grid ring at score 5",
+      "data": {
+        "values": [
+          {"k": 0}, {"k": 1}, {"k": 2}, {"k": 3}, {"k": 4}, {"k": 0}
+        ]
+      },
+      "transform": [
+        {"calculate": "5 * sin(datum.k * 2 * PI / 5)", "as": "grid_x"},
+        {"calculate": "5 * cos(datum.k * 2 * PI / 5)", "as": "grid_y"}
+      ],
+      "mark": {"type": "line", "color": "#e5e5e5", "strokeWidth": 1, "strokeDash": [4, 4]},
+      "encoding": {
+        "x": {"field": "grid_x", "type": "quantitative", "scale": {"domain": [-14, 14]}},
+        "y": {"field": "grid_y", "type": "quantitative", "scale": {"domain": [-14, 14]}}
+      }
+    },
+    {
+      "description": "Spoke lines extending from center to max boundaries",
+      "mark": {"type": "rule", "stroke": "#e8e8e8", "strokeWidth": 1.2},
+      "encoding": {
+        "x": {"datum": 0, "type": "quantitative", "scale": {"domain": [-14, 14]}},
+        "y": {"datum": 0, "type": "quantitative", "scale": {"domain": [-14, 14]}},
+        "x2": {"field": "label_x", "type": "quantitative"},
+        "y2": {"field": "label_y", "type": "quantitative"}
+      }
+    },
+    {
+      "description": "Semi-transparent filled area webs center-anchored",
+      "mark": {"type": "area", "interpolate": "linear-closed"},
+      "encoding": {
+        "x": {"field": "x", "type": "quantitative", "scale": {"domain": [-14, 14]}},
+        "y": {"field": "y", "type": "quantitative", "scale": {"domain": [-14, 14]}},
+        "x2": {"datum": 0},
+        "y2": {"datum": 0},
+        "color": {
+          "field": "Route_ID",
+          "type": "nominal",
+          "scale": {
+            "domain": ["KJL", "KGL", "AGL", "SPL", "PYL", "MRL", "BRT"],
+            "range": ["#ef1c23", "#3498db", "#e67e22", "#9b59b6", "#f1c40f", "#2c3e50", "#ff7f50"]
+          },
+          "legend": {
+            "orient": "right",
+            "title": "Transit Line",
+            "labelExpr": "datum.value == 'KJL' ? 'LRT Kelana Jaya' : datum.value == 'KGL' ? 'MRT Kajang' : datum.value == 'AGL' ? 'LRT Ampang' : datum.value == 'SPL' ? 'LRT Sri Petaling' : datum.value == 'PYL' ? 'MRT Putrajaya' : datum.value == 'MRL' ? 'KL Monorail' : datum.value == 'BRT' ? 'BRT Sunway' : datum.value"
+          }
+        },
+        "order": {"field": "key", "type": "quantitative"},
+        "opacity": {
+          "condition": {"test": "selectedLine == 'Show All'", "value": 0.15},
+          "value": 0.55
+        }
+      }
+    },
+    {
+      "description": "Solid outline borders for the webs",
+      "mark": {"type": "line", "strokeWidth": 3, "interpolate": "linear-closed", "strokeCap": "round"},
+      "encoding": {
+        "x": {"field": "x", "type": "quantitative", "scale": {"domain": [-14, 14]}},
+        "y": {"field": "y", "type": "quantitative", "scale": {"domain": [-14, 14]}},
+        "color": {
+          "field": "Route_ID",
+          "type": "nominal",
+          "scale": {
+            "domain": ["KJL", "KGL", "AGL", "SPL", "PYL", "MRL", "BRT"],
+            "range": ["#ef1c23", "#3498db", "#e67e22", "#9b59b6", "#f1c40f", "#2c3e50", "#ff7f50"]
+          }
+        },
+        "order": {"field": "key", "type": "quantitative"},
+        "opacity": {
+          "condition": {"test": "selectedLine == 'Show All'", "value": 0.4},
+          "value": 1.0
+        }
+      }
+    },
+    {
+      "description": "Attribute Text Labels plotted cleanly along the outer perimeter",
+      "mark": {"type": "text", "baseline": "middle", "align": "center", "fontSize": 11, "fill": "#333", "font": "sans-serif"},
+      "encoding": {
+        "x": {"field": "label_x", "type": "quantitative", "scale": {"domain": [-14, 14]}},
+        "y": {"field": "label_y", "type": "quantitative", "scale": {"domain": [-14, 14]}},
+        "text": {"field": "Attribute", "type": "nominal"}
+      }
+    },
+    {
+      "description": "Interactive data points for clean mouse tooltips",
+      "mark": {"type": "point", "size": 65, "fill": "#ffffff", "strokeWidth": 2},
+      "encoding": {
+        "x": {"field": "x", "type": "quantitative", "scale": {"domain": [-14, 14]}},
+        "y": {"field": "y", "type": "quantitative", "scale": {"domain": [-14, 14]}},
+        "color": {
+          "field": "Route_ID",
+          "type": "nominal",
+          "scale": {
+            "domain": ["KJL", "KGL", "AGL", "SPL", "PYL", "MRL", "BRT"],
+            "range": ["#ef1c23", "#3498db", "#e67e22", "#9b59b6", "#f1c40f", "#2c3e50", "#ff7f50"]
+          }
+        },
+        "tooltip": [
+          {"field": "Line", "type": "nominal", "title": "Transit Line"},
+          {"field": "Attribute", "type": "nominal", "title": "Metric"},
+          {"field": "Score", "type": "quantitative", "title": "Score (1-10)"}
+        ]
+      }
+    }
+  ]
+}

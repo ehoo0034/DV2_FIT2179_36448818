@@ -1,0 +1,71 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "KL-Selangor Transit Stations: Healthcare Access vs. Daily Ridership",
+    "subtitle": [
+      "Analyzing the density of healthcare facilities",
+      "within a 1km walking radius against station traffic"
+    ],
+    "anchor": "start",
+    "frame": "group"
+  },
+  "width": 600,
+  "height": 400,
+  "data": {
+    "url": "data/merge_faci_stops.csv",
+    "format": {"type": "csv"}
+  },
+  "params": [
+    {
+      "name": "lineSelection",
+      "select": {"type": "point", "fields": ["route_id"]},
+      "bind": {
+        "input": "select",
+        "options": [null, "KJ", "MRT", "AG", "PH", "PYL", "MR", "BRT"],
+        "labels": [
+          "Show All Lines",
+          "LRT Kelana Jaya",
+          "MRT Kajang",
+          "LRT Ampang",
+          "LRT Sri Petaling",
+          "MRT Putrajaya",
+          "KL Monorail",
+          "BRT Sunway"
+        ],
+        "name": "Filter by Rail Line: "
+      }
+    }
+  ],
+  "mark": "circle",
+  "encoding": {
+    "x": {
+      "field": "PassengerRidership",
+      "type": "quantitative",
+      "title": "Estimated Passenger Ridership (Daily Traffic)"
+    },
+    "y": {
+      "field": "TotalFacilities",
+      "type": "quantitative",
+      "title": "Number of Health Facilities (1km Buffer)"
+    },
+    "size": {
+      "field": "TotalFacilities",
+      "type": "quantitative",
+      "title": "Facility Density",
+      "scale": {"range": [50, 800]},
+      "legend": {"format": "d"}
+    },
+    "color": {
+      "field": "route_id",
+      "type": "nominal",
+      "title": "Transit Line",
+      "legend": {
+        "labelExpr": "datum.value == 'KJ' ? 'LRT Kelana Jaya' : datum.value == 'MRT' ? 'MRT Kajang' : datum.value == 'AG' ? 'LRT Ampang' : datum.value == 'PH' ? 'LRT Sri Petaling' : datum.value == 'PYL' ? 'MRT Putrajaya' : datum.value == 'MR' ? 'KL Monorail' : datum.value == 'BRT' ? 'BRT Sunway' : datum.value"
+      },
+      "scale": {
+        "domain": ["KJ", "MRT", "AG", "PH", "PYL", "MR", "BRT"],
+        "range": ["#ef1c23", "#3498db", "#e67e22", "#9b59b6", "#f1c40f", "#2c3e50", "#ff7f50"]
+      }
+    }
+  }
+}
